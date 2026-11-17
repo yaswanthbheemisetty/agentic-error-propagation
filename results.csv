@@ -1,0 +1,10 @@
+condition,method,runs,passed,S4_pct,ci_low,ci_high,FPR_pct,TRR_pct,avg_tokens,avg_latency_s
+clean,Naive_Chain,25,2,8.0,2.2,25.0,92.0,0.0,334.4,12.15
+clean,Self_Check,25,3,12.0,4.2,30.0,80.0,12.0,477.0,16.96
+clean,Independent_Verifier,25,18,72.0,52.4,85.7,28.0,12.0,327.8,11.61
+inject_early_step2,Naive_Chain,25,4,16.0,6.4,34.7,84.0,16.0,340.7,12.07
+inject_early_step2,Self_Check,25,6,24.0,11.5,43.4,76.0,24.0,483.4,17.44
+inject_early_step2,Independent_Verifier,25,15,60.0,40.7,76.6,40.0,60.0,428.7,15.68
+inject_late_step3,Naive_Chain,25,0,0.0,0.0,13.3,100.0,0.0,334.4,11.91
+inject_late_step3,Self_Check,25,1,4.0,0.7,19.5,96.0,4.0,499.1,17.78
+inject_late_step3,Independent_Verifier,25,15,60.0,40.7,76.6,40.0,60.0,367.9,13.02
